@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Nunito:wght@500&display=swap');
+@import "footer";
+@import "header";
+@import "reset";
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    font-size: 25px;
+}
+
+.header{
+    background-color: rgb(252, 252, 252);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 110px;
+    padding: 5px 10%;
+}
+
+.header .logo{
+    cursor: pointer;
+}
+
+.header .logo img{
+    height: 95px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+.header .logo .img:hover{
+    transform: scale(1.2);
+}
+
+.header .nav-links li{
+    display: inline-block;
+    padding: 0 20px;
+    list-style: none
+}
+
+.header .nav-links li:hover{
+    transform: scale(1.2);
+}
+
+.header .nav-links a{
+    font-size: 25px;
+    color: rgb(3, 3, 3);
+    text-decoration: none;
+}
+
+.header .nav-links li a:hover{
+    color: rgb(245, 104, 4);
+}
+
+.header .btn button{
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    padding: 9px 25px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.header .btn button:hover{
+    background-color: gold;
+    transform: scale(1.1);
+}
+
+
+#body{
+    background-color: gold ;
+    max-width: 1440px;
+    margin: 0 auto;
+    min-height: 100vh;
+
+}
+#PortadaPrincipal{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../imagen/Familia2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
