@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Nunito:wght@500&display=swap");
+/* FOOTER */
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box; }
+
+.footer {
+  background-color: white;
+  padding: 80 0; }
+
+.caja {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto; }
+
+.footerLogoImg {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black; }
+
+.box {
+  width: 33%;
+  float: left; }
+
+.footerContacto li a {
+  color: black;
+  font-size: 25px;
+  text-decoration: none; }
+
+/* FOOTER */
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box; }
+
+.footer {
+  background-color: white;
+  padding: 80 0; }
+
+.caja {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto; }
+
+.footerLogoImg {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black; }
+
+.box {
+  width: 33%;
+  float: left; }
+
+.footerContacto li a {
+  color: black;
+  font-size: 25px;
+  text-decoration: none; }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif;
+  font-size: 25px; }
+
+.header {
+  background-color: #c40000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 110px;
+  padding: 5px 10%; }
+
+.header .logo {
+  cursor: pointer; }
+
+.header .logo img {
+  height: 95px;
+  width: auto;
+  transition: all 0.3s; }
+
+.header .logo .img:hover {
+  transform: scale(1.2); }
+
+.header .nav-links li {
+  display: inline-block;
+  padding: 0 20px;
+  list-style: none; }
+
+.header .nav-links li:hover {
+  transform: scale(1.2); }
+
+.header .nav-links a {
+  font-size: 25px;
+  color: #030303;
+  text-decoration: none; }
+
+.header .nav-links li a:hover {
+  color: #f56804; }
+
+.header .btn button {
+  font-weight: 600;
+  color: black;
+  padding: 9px 25px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s; }
+
+.header .btn button:hover {
+  background-color: gold;
+  transform: scale(1.1); }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito', sans-serif;
+  font-size: 25px; }
+
+.header {
+  background-color: #fcfcfc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 110px;
+  padding: 5px 10%; }
+
+.header .logo {
+  cursor: pointer; }
+
+.header .logo img {
+  height: 95px;
+  width: auto;
+  transition: all 0.3s; }
+
+.header .logo .img:hover {
+  transform: scale(1.2); }
+
+.header .nav-links li {
+  display: inline-block;
+  padding: 0 20px;
+  list-style: none; }
+
+.header .nav-links li:hover {
+  transform: scale(1.2); }
+
+.header .nav-links a {
+  font-size: 25px;
+  color: #030303;
+  text-decoration: none; }
+
+.header .nav-links li a:hover {
+  color: #f56804; }
+
+.header .btn button {
+  font-weight: 600;
+  color: black;
+  padding: 9px 25px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s; }
+
+.header .btn button:hover {
+  background-color: gold;
+  transform: scale(1.1); }
+
+#body {
+  background-color: gold;
+  max-width: 1440px;
+  margin: 0 auto;
+  min-height: 100vh; }
+
+#PortadaPrincipal {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../imagen/Familia2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+/*# sourceMappingURL=style.css~sass.map */

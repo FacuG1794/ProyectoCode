@@ -4,34 +4,66 @@
     padding: 0;
     list-style: none;
     box-sizing: border-box;
+    
   }
-  
-  .footer {
-    background-color: rgb(255, 255, 255);
-    padding: 80 0;
-  }
-  
-  .caja {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  
-.footerLogoImg {
-    width: 200px;
-    height: 200px;
-    border: 1px solid black;
+
+.logo{
+  width: 10%;
+  height: 10%;
 }
-  
-  .box {
-    width: 33%;
-    float: left;
-  }
-  
-  .footerContacto li a {
-    color: black;
-    font-size: 25px;
-    text-decoration: none;
-  }
-  
+
+
+//.flex-container {
+//    display: flex;
+//    border: 1px rgb(0, 0, 0) solid;
+//    background-color: rgb(148, 148, 148);
+//    padding: 20px;
+//    flex-flow: row wrap;
+//    justify-content: center;
+//   margin: 0 auto;
+//    width: 80%;
+//    height: 800px;
+//    align-content: center;
+//}
+//.caja {
+//    border: 1px black solid;
+//    background-color: aqua;
+//    color: rgb(0, 0, 0);
+//    font-family: 'Courier New', Courier, monospace;
+//    font-weight: bold;
+//    width: 200px;
+//    line-height: 200px;
+//    text-align: center;
+//    margin: 5px;
+//    overflow: hidden;
+//}
+//.c1 {
+//    background-color: lightgoldenrodyellow;
+//    order: 1;
+//    flex-grow: 5;
+//    flex-basis: 50%;
+//}
+//.c2 {
+//    background-color: lightpink;
+//    order: 3;
+//    flex-grow: 1;
+//}
+//.c3 {
+//    background-color: lightsalmon;
+//    order: 2;
+//    flex-grow: 1;
+//}
+
+//    <section class="flex-container">
+//        <div class="caja c1">
+//            caja 1
+//        </div>
+//        <div class="caja c2">
+//            caja 2
+//        </div>
+//        <div class="caja c3">
+//            caja 3
+//    </section>
+
+
+
