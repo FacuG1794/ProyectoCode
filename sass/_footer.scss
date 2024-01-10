@@ -1,71 +1,63 @@
+
 /* FOOTER */
 
-.logo{
-  width: 10%;
-  height: 10%;
+.footer {
+  background-color: #f8f9fa;
+  padding: 35px 0;
+  height: 120px;
+  width: 100%;
+  margin-top: auto;
 }
 
+.footer__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Cambiado a space-between para alinear los elementos al extremo */
+}
 
+.footer__logo {
+  max-width: 100px;
+}
+.col-12 col-sm mx-auto{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footer__links--pages {
+  color: #333;
+  text-decoration: none; 
+  padding: 0 30px;
+  font-size: 20px;
+}
+@media (max-width: 576px) {
+  .footer__container {
+    flex-direction: column; /* Cambia a disposición vertical */
+    align-items: center; /* Alinea los elementos al centro */
+  }
+  .footer__links {
+    margin-top: 15px; /* Espaciado entre los enlaces y el resto */
+  }
+  .footer__social--icons {
+    margin-top: 15px; /* Espaciado entre los íconos de redes sociales y el resto */
+  }
+}
+/* Estilos para dispositivos medianos y grandes */
+@media (min-width: 577px) {
+  .footer__container {
+    justify-content: space-between; /* Alinea los elementos al extremo */
+    align-items: center; /* Alinea verticalmente */
+  }
+  .footer__links {
+    flex: 1; /* Ocupa el espacio disponible */
+    display: flex;
+    justify-content: space-around; /* Distribuye los enlaces horizontalmente */
+    margin: 0; /* Elimina el margen agregado en dispositivos pequeños */
+  }
+}
 
-
-
-
-
-
-
-
-
-//.flex-container {
-//    display: flex;
-//    border: 1px rgb(0, 0, 0) solid;
-//    background-color: rgb(148, 148, 148);
-//    padding: 20px;
-//    flex-flow: row wrap;
-//    justify-content: center;
-//   margin: 0 auto;
-//    width: 80%;
-//    height: 800px;
-//    align-content: center;
-//}
-//.caja {
-//    border: 1px black solid;
-//    background-color: aqua;
-//    color: rgb(0, 0, 0);
-//    font-family: 'Courier New', Courier, monospace;
-//    font-weight: bold;
-//    width: 200px;
-//    line-height: 200px;
-//    text-align: center;
-//    margin: 5px;
-//    overflow: hidden;
-//}
-//.c1 {
-//    background-color: lightgoldenrodyellow;
-//    order: 1;
-//    flex-grow: 5;
-//    flex-basis: 50%;
-//}
-//.c2 {
-//    background-color: lightpink;
-//    order: 3;
-//    flex-grow: 1;
-//}
-//.c3 {
-//    background-color: lightsalmon;
-//    order: 2;
-//    flex-grow: 1;
-//}
-
-//    <section class="flex-container">
-//        <div class="caja c1">
-//            caja 1
-//        </div>
-//        <div class="caja c2">
-//            caja 2
-//        </div>
-//        <div class="caja c3">
-//            caja 3
-//    </section>
-
-
-
+@media (min-width: 575px) and (max-width: 1404px) {
+  body {
+      width: 100vw; /* Ancho relativo al 100% del viewport width */
+      max-width: 100%; /* Establece el ancho máximo al 100% para asegurarlo */
+  }
+}
