@@ -12,7 +12,7 @@
 
 .footer__logo {
   max-width: 100px;
-  margin-right: 300px; /* Agregar margen derecho al logo */
+  margin-right: 300px; 
 }
 
 .navbar-brand img:hover {
@@ -20,28 +20,28 @@
 }
 
 .navbar-nav .nav-link {
-  font-size: 25px; /* Tamaño de fuente para los enlaces */
-  transition: color 0.5s, transform 0.5s; /* Transición suave para el cambio de color y escala */
+  font-size: 25px; 
+  transition: color 0.5s, transform 0.5s; 
   color: rgb(34, 34, 33);
-  margin-right: 30px; /* Espaciado entre elementos */
-  display: inline-block; /* Para mantener el tamaño sin cambio al hacer hover */
+  margin-right: 30px; 
+  display: inline-block; 
 }
 
 .navbar-nav .nav-link:hover {
-  color: orange; /* Cambio de color al pasar el cursor */
-  transform: scale(1.2); /* Aumento de tamaño al pasar el cursor */
+  color: orange; 
+  transform: scale(1.2);
 }
 
 .navbar-nav .btn {
-  font-size: 25px; /* Tamaño de fuente para los botones */
-  padding: 8px 16px; /* Ajustando el relleno para que los botones sean más grandes */
-  transition: all 0.3s; /* Transición suave para los cambios */
-  font-weight: bold; /* Hacer el texto en negrita o más grueso */
-  margin-right: 30px; /* Espaciado entre elementos */
-  display: inline-block; /* Para mantener el tamaño sin cambio al hacer hover */
+  font-size: 25px; 
+  padding: 8px 16px; 
+  transition: all 0.3s; 
+  font-weight: bold; 
+  margin-right: 30px; 
+  display: inline-block; 
 }
 
 .navbar-nav .btn:hover {
-  transform: scale(1.1); /* Aumento de tamaño al pasar el cursor */
+  transform: scale(1.1); 
 }
 

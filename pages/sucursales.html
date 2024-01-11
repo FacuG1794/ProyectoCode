@@ -1,66 +1,125 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <title>Sucursales</title>
-
+    <meta charset="UTF-8">
+    <title>Helados El Rey</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <meta name="description" content="La mejor heladería artesanal con sabores únicos y deliciosos, perfectos para disfrutar en familia.">
+    <meta name="keywords" content="helados, helados artesanales, postres, sabores, heladería, dulces, calidad, buena atencion, destacada">
+    <meta name="robots" content="index, follow">
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
     <link rel="icon" type="image/x-icon" href="../logos/favicon.ico">
-
+    <style type="text/css">
+        @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Nunito:wght@500&display=swap');
+        a {
+            font-family: 'Lato', sans-serif; 
+        }
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>    
-<!-- NAV -->
-    <nav id="top"  class="navbar navbar-light bg-light">
-        
-        <ul class="navbar__breadcrumb">
-            <li class="navbar__list--group"><a class="navbar-brand" href="../index.html">
-                <img class="navbar__logo navLogo" src="../logos/Logo.png" width="5%" height="5%" alt="">
-                </a>
-            </li>
-            <li class="navbar__list--group">
-                <a class="navbar__list" href="#">Sucursales</a>
-            </li>
-            <li class="navbar__list--group">
-                <a class="navbar__list" href="./sabores.html">Sabores</a>
-            </li>
-            <li class="navbar__list--group">
-                <a class="navbar__list" href="./novedades.html">Novedades</a>
-            </li>
-            <li class="navbar__list--group">
-                <a class="navbar__list" href="./nosotros.html">Nosotros</a>
-            </li>
-            <li class="navbar__list--group">
-                <a class="navbar__list" href="./contacto.html">Contacto</a>
-            </li>
-            <li class="navbar__container--btn"><button class="navbar__list btn ">Descargá la app</button>
-            </li>
-            <li class="navbar__container--btn"><button class="navbar__list btn ">Pedidos online</button>
-            </li>
-        </ul>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid px-5">
+            <a class="navbar-brand" href="../index.html">
+                <img src="../logos/Logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav gap-3">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sucursales</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./sabores.html">Sabores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./novedades.html">Novedades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn btn-warning me-3">Descargar App</button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn btn-warning">Pedidos Online</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
-<!-- BODY -->
-
-    <h2>Sucursales</h2>
+    <h2 class="cajas__title text-center mt-4">Nuestras Sucursales</h2>
+    <div class="sucursal-box">
+        <div class="cajas__item row mb-5">
+            <div class="col-md-4">
+                <img src="../imagen/sucursal1.jpg" alt="Heladería 1" class="img-fluid">
+            </div>
+            <div class="col-md-8">
+                <h3 class="cajas__item-title">Sucursal en San Jose</h3>
+                <p class="cajas__item-info">Dirección: Monteagudo 123</p>
+                <p class="cajas__item-info">Teléfono: 333444555</p>
+                <p class="cajas__item-info"><strong>Descripción:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget risus vitae justo imperdiet luctus.</p>
+            </div>
+        </div>
+        <div class="cajas__item row mb-5">
+            <div class="col-md-4">
+                <img src="../imagen/sucursal4.webp" alt="Heladería 2" class="img-fluid">
+            </div>
+            <div class="col-md-8">
+                <h3 class="cajas__item-title">Sucursal en Colon</h3>
+                <p class="cajas__item-info">Dirección: Uquiza 302</p>
+                <p class="cajas__item-info">Teléfono: 444333222</p>
+                <p class="cajas__item-info"><strong>Descripción:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget risus vitae justo imperdiet luctus.</p>
+            </div>
+        </div>
+        <div class="cajas__item row mb-5">
+            <div class="col-md-4">
+                <img src="../imagen/sucursal3.jpg" alt="Heladería 3" class="img-fluid">
+            </div>
+            <div class="col-md-8">
+                <h3 class="cajas__item-title">Sucursal en Villa Elisa</h3>
+                <p class="cajas__item-info">Dirección: Peron 321</p>
+                <p class="cajas__item-info">Teléfono: 444111222</p>
+                <p class="cajas__item-info"><strong>Descripción:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget risus vitae justo imperdiet luctus.</p>
+            </div>
+        </div>
+    </div>
+    
 <!-- FOOTER -->
-<footer id="footer"  class="card-footer">
-    <article class="footerLogo">
-        <img class="logo footerLogoImg" src="../logos/Logo.png" alt="">
-    </article>
-    <article class="footerLinks">
-        <ul>
-            <li><a href="#">Sucursales</a></li>
-            <li><a href="./sabores.html">Sabores</a></li>
-            <li><a href="./novedades.html">Novedades</a></li>
-            <li><a href="./nosotros.html">Nosotros</a></li>
-            <li><a href="./contacto.html">Contacto</a></li>
-        </ul>
-</footer>
+    <footer class="footer bg-light">
+        <div class="footer__container container-fluid d-flex justify-content-between align-items-center">
+            <div class="footer__casacasa">
+                <!-- LOGO FOOTER -->
+                <img src="../logos/Logo.png" alt="Logo Helados el Rey" class="footer__logo">
+            </div>
+            <div class="footer__links">
+                <!-- ENLACES FOOTER -->
+                <a class="footer__links--pages" href="#">Sucursales</a>
+                <a class="footer__links--pages" href="./sabores.html">Sabores</a>
+                <a class="footer__links--pages" href="./novedades.html">Novedades</a>
+                <a class="footer__links--pages" href="./nosotros.html">Nosotros</a>
+                <a class="footer__links--pages" href="./contacto.html">Contacto</a>
+            </div>
+            <!-- REDES SOCIALES -->
+            <div class="footer__social--icons">
+                <a href="#" class="mr-2"><i class="footer__redes fab fa-facebook text-primary" style="font-size: 35px;"></i></a>
+                <a href="#" class="mr-2"><i class="footer__redes fab fa-instagram text-danger" style="font-size: 35px;"></i></a>
+                <a href="#" class="mr-2"><i class="footer__redes fab fa-whatsapp text-success" style="font-size: 35px;"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- BOOTSTRAP/JAVASCRIPT -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js">
+    </script>
 </body>
 </html>

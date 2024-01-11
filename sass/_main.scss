@@ -1,39 +1,42 @@
 
-/* Estilo para el grid-container con color de fondo amarillo */
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
     padding: 20px;
-    background-color: #FFEE58; /* Color de fondo para el grid */
-    border-radius: 10px; /* Borde redondeado opcional */
-    margin-left: -20px; /* Extiende el color al lado izquierdo */
-    margin-right: -20px; /* Extiende el color al lado derecho */
+    border-radius: 10px;
 }
 
-
-/* Estilo para el grid */
+.container {
+    padding: 20px; 
+}
 .grid-item {
     padding: 20px;
     text-align: center;
     border-radius: 12px;
     border: 1px solid black;
     margin: 10px;
+    background-color: #ffdd85;
 }
 
 .grid-item img {
     max-width: 100%;
     height: auto;
-    border: 1px solid black; /* Agregar borde a las imágenes */
-    border-radius: 10px; /* Aplicar también a las imágenes */
+    border: 1px solid black; 
+    border-radius: 10px;
 }
-/* Estilo para el carrusel-container */
+
+p {
+    font-weight: bold;
+}
+
 .carousel-container {
     margin-bottom: 20px; 
 }
 
 @media (max-width: 768px) {
     .grid-container {
-        grid-template-columns: 1fr; /* Cambio de columnas en dispositivos móviles */
+        grid-template-columns: 1fr; 
     }
 }

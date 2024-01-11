@@ -1,32 +1,6 @@
 
 body {
-    background-color: #FFEE58; /* Fondo con gradiente dorado */
-    max-width: 100%; /* Establecer el ancho máximo al 100% */
-}
-
-
-#PortadaPrincipal {
-    position: relative;
-    background-color: #FFEE58; /* Fondo con gradiente dorado */
-    display: flex;
-    justify-content: center; /* Centrar horizontalmente */
-    align-items: center; /* Centrar verticalmente */
-    height: 100vh;
-    margin: 0; /* Elimina cualquier margen interior */
-}
-
-#PortadaPrincipal h2 {
-    position: absolute;
-    top: 5%; /* Posición inicial desde arriba */
-    left: 5%; /* Posición inicial desde la izquierda */
-    color: rgb(0, 0, 0); /* Cambia el color del texto a negro o el que prefieras */
-    text-align: center; /* Alinea el texto al centro */
-    opacity: 0; /* Establece la opacidad inicial en 0 para que esté oculto */
-    transition: opacity 0.5s ease-in, top 1s ease-out; /* Agrega transiciones */
-}
-
-#PortadaPrincipal:hover h2 {
-    top: 10%; /* Posición final, ajustada hacia abajo */
-    opacity: 0.7; /* Reduce la opacidad del texto cuando se pasa el mouse */
+    background-color: #FFEE58 !important ;
+    max-width: 100%; 
 }
 

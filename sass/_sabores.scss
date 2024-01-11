@@ -1,0 +1,34 @@
+
+
+.sabores-box {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.sabor-item {
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+    width: 200px;
+    background-color: #fcd972;
+}
+.sabor-item__title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.sabor-item__description {
+    font-size: 14px;
+    color: #666;
+}
+.sabor-item__list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sabor-item__list li {
+    margin-bottom: 5px;
+}
+

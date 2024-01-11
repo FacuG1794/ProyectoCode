@@ -1,63 +1,64 @@
-
 /* FOOTER */
 
 .footer {
   background-color: #f8f9fa;
   padding: 35px 0;
-  height: 120px;
-  width: 100%;
-  margin-top: auto;
 }
 
 .footer__container {
   display: flex;
   align-items: center;
-  justify-content: space-between; /* Cambiado a space-between para alinear los elementos al extremo */
+  justify-content: space-between;
 }
 
 .footer__logo {
   max-width: 100px;
 }
-.col-12 col-sm mx-auto{
+
+.footer__links {
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  justify-content: space-around;
+  list-style: none; 
+  padding: 0;
+  margin: 0;
 }
+
 .footer__links--pages {
   color: #333;
   text-decoration: none; 
-  padding: 0 30px;
-  font-size: 20px;
+  font-size: 16px;
+}
+
+@media (min-width: 577px) {
+  .footer__container {
+    justify-content: space-between; 
+    align-items: center; 
+  }
+  .footer__links {
+    flex: 1; 
+    display: flex;
+    justify-content: space-around; 
+    margin: 0; 
+  }
 }
 @media (max-width: 576px) {
   .footer__container {
-    flex-direction: column; /* Cambia a disposición vertical */
-    align-items: center; /* Alinea los elementos al centro */
+    flex-direction: column;
+    align-items: center;
   }
-  .footer__links {
-    margin-top: 15px; /* Espaciado entre los enlaces y el resto */
-  }
-  .footer__social--icons {
-    margin-top: 15px; /* Espaciado entre los íconos de redes sociales y el resto */
-  }
-}
-/* Estilos para dispositivos medianos y grandes */
-@media (min-width: 577px) {
-  .footer__container {
-    justify-content: space-between; /* Alinea los elementos al extremo */
-    align-items: center; /* Alinea verticalmente */
-  }
-  .footer__links {
-    flex: 1; /* Ocupa el espacio disponible */
-    display: flex;
-    justify-content: space-around; /* Distribuye los enlaces horizontalmente */
-    margin: 0; /* Elimina el margen agregado en dispositivos pequeños */
-  }
-}
 
-@media (min-width: 575px) and (max-width: 1404px) {
-  body {
-      width: 100vw; /* Ancho relativo al 100% del viewport width */
-      max-width: 100%; /* Establece el ancho máximo al 100% para asegurarlo */
+  .footer__logo {
+    max-width: 100%;
+    margin-left: 40%;
+  }
+
+  .footer__links {
+    margin-top: 15px;
+    flex-direction: column;
+    text-align: center; 
+  }
+
+  .footer__social--icons {
+    margin-top: 15px;
   }
 }

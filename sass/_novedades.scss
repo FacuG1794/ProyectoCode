@@ -1,0 +1,26 @@
+.novedad-item {
+    position: relative;
+    overflow: hidden;
+    border: 2px solid rgba(0, 128, 0, 0.5);
+    background-color: #00ff004d;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+
+.novedad-item img {
+    width: 100%;
+    max-height: 150px; 
+    display: block;
+    margin-bottom: 10px;
+}
+
+.novedad-item h4, .novedad-item p {
+    margin-top: 10px;
+}
+
+.container h3 {
+    text-align: center;
+    margin-top: 50px; 
+}
