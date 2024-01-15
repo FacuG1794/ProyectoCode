@@ -1,28 +1,33 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Nunito:wght@500&display=swap");
 /* FOOTER */
+
+
+      /* PASAR Y ELIMINAR TODOS ESTOS ESTILOS */
 .footer {
   background-color: #f8f9fa;
-  padding: 35px 0; }
-
-.footer__container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between; }
-
-.footer__logo {
-  max-width: 100px; }
-
-.footer__links {
-  display: flex;
-  justify-content: space-around;
-  list-style: none;
-  padding: 0;
-  margin: 0; }
-
-.footer__links--pages {
-  color: #333;
-  text-decoration: none;
-  font-size: 16px; }
+  padding: 35px 0;
+}
+  .footer__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+  .footer__logo {
+    max-width: 100px; 
+}
+  .footer__links {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    margin: 0; 
+}
+  .footer__links--pages {
+    color: #333;
+    text-decoration: none;
+    font-size: 16px; 
+}
 
 @media (min-width: 577px) {
   .footer__container {
@@ -41,7 +46,9 @@
 
   .footer__logo {
     max-width: 100%;
-    margin-left: 40%; }
+    margin-left: 40%;
+
+  }
 
   .footer__links {
     margin-top: 15px;
@@ -181,27 +188,45 @@ p {
 .sabor-item__list li {
   margin-bottom: 5px; }
 
-.novedad-item {
-  position: relative;
-  overflow: hidden;
-  border: 2px solid rgba(0, 128, 0, 0.5);
+.contenedor {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 90%;
+  margin: 40px auto;
+  padding: 20px;
+  gap: 20px;
+  box-sizing: border-box; }
+  @media (max-width: 1200px) {
+    .contenedor {
+      grid-template-columns: repeat(3, 1fr);} }
+  @media (max-width: 900px) {
+    .contenedor {
+      grid-template-columns: repeat(2, 1fr);} }
+  @media (max-width: 480px) {
+    .contenedor {
+      grid-template-columns: 1fr;
+} }
+
+.novedad {
   background-color: #00ff004d;
-  padding: 15px;
+  padding: 10px;
+  border: 2px solid green;
   border-radius: 10px;
-  margin-bottom: 30px; }
+  overflow: hidden; }
+  .novedad__img {
+    width: 100%;
+    max-height: 150px;
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 12px; }
+  .novedad__titulo {
+    overflow: hidden;
+    padding-bottom: 2px;
+    text-align: center; }
 
-.novedad-item img {
-  width: 100%;
-  max-height: 150px;
-  display: block;
-  margin-bottom: 10px; }
-
-.novedad-item h4, .novedad-item p {
-  margin-top: 10px; }
-
-.container h3 {
+.titulo-principal {
   text-align: center;
-  margin-top: 50px; }
+  padding-top: 20px; }
 
 .imagen-destacada {
   width: 100%;
