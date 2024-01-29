@@ -1,0 +1,64 @@
+
+
+
+.navegador {
+  height: 132px;
+  padding: 20px 0;
+  background-color: #f8f9fa;
+  &__barra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+  }
+  &__logo {
+    display: flex;
+    align-items: center;
+  }
+  &__img {
+    max-width: 130px;
+    height: auto;
+    width: 100%;
+    transition: all 0.3s;
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+  &__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 50px;
+    justify-content: flex-end;
+  }
+  &__paginas {
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    font-family: "Roboto condensed", sans-serif;
+    transition: color 0.5s, transform 0.5s; 
+    width: 120px;
+    display: block;
+    text-align: center; 
+    &:hover {
+      color: orange; 
+      transform: scale(1.2);
+    }
+  }
+  &__boton {
+    font-family: "Roboto condensed", sans-serif;
+    font-size: 25px; 
+    transition: all 0.3s; 
+    font-weight: bold; 
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}
+
+.container-fluid {
+  position: relative;
+  z-index: 1;
+  background-color: #f8f9fa;
+}

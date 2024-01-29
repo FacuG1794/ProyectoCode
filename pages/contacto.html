@@ -7,91 +7,80 @@
     <meta name="description" content="La mejor heladería artesanal con sabores únicos y deliciosos, perfectos para disfrutar en familia.">
     <meta name="keywords" content="helados, helados artesanales, postres, sabores, heladería, dulces, calidad, buena atencion, destacada">
     <meta name="robots" content="index, follow">
-    <link rel="stylesheet" href="../css/style.css">
     <link rel="icon" type="image/x-icon" href="../logos/favicon.ico">
-    <style type="text/css">
-        @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Nunito:wght@500&display=swap');
-        a {
-            font-family: 'Lato', sans-serif; 
-        }
-    </style>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
-<body>
-<body>    
+<body>   
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid px-5">
-            <a class="navbar-brand" href="../index.html">
-                <img src="../logos/Logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+    <nav class="navegador navbar-expand-lg navbar-light ">
+        <div class="navegador__barra  container-fluid px-5">  <!-- la barra adentro de la barra -->
+            <a class="navegador__logo navbar-brand" href="../index.html">
+                <img class="navegador__img d-inline-block align-top" src="../logos/Logo.png"  alt="">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navegador__boton navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav gap-3">
+                <ul class="navegador__list navbar-nav "> <!-- navbar-nav --> 
                     <li class="nav-item">
-                        <a class="nav-link" href="./sucursales.html">Sucursales</a>
+                        <a class="navegador__paginas" href="../pages/sucursales.html">Sucursales</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./sabores.html">Sabores</a>
+                        <a class="navegador__paginas" href="../pages/sabores.html">Sabores</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./novedades.html">Novedades</a>
+                        <a class="navegador__paginas" href="../pages/novedades.html">Novedades</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                        <a class="navegador__paginas" href="../pages/nosotros.html">Nosotros</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
+                        <a class="navegador__paginas" href="#">Contacto</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item navegador__boton">
                         <button class="btn btn-warning me-3">Descargar App</button>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item navegador__boton">
                         <button class="btn btn-warning">Pedidos Online</button>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <div class="container mt-5">
-        <h2>Contacto</h2>
-        <p>Puedes encontrarnos en la siguiente ubicación:</p>
-
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d709.574711978026!2d-58.138811302382116!3d-32.22240957608255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95ae331c9c6968fb%3A0xc204c53043684cd4!2sHelados%20El%20Rey-%20Col%C3%B3n%20Urquiza!5e0!3m2!1ses-419!2sar!4v1700489296780!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
+    <main>
+    <div class="madre">
+        <h2 class="madre__h2">Contacto</h2>
+        <p class="madre__subtitulo">Puedes encontrarnos en la siguiente ubicación:</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d709.574711978026!2d-58.138811302382116!3d-32.22240957608255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95ae331c9c6968fb%3A0xc204c53043684cd4!2sHelados%20El%20Rey-%20Col%C3%B3n%20Urquiza!5e0!3m2!1ses-419!2sar!4v1700489296780!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
         <div class="mt-4">
-            <h3>Información de contacto:</h3>
-            <p>Dirección: Av. Colón y Urquiza</p>
-            <p>Teléfono: +54 123 456 789</p>
-            <p>Email: info@heladoselrey.com</p>
+            <h3 class="madre__contacto">Información de contacto:</h3>
+            <p class="madre__contacto">Dirección: Av. Colón y Urquiza</p>
+            <p class="madre__contacto">Teléfono: +54 123 456 789</p>
+            <p class="madre__contacto">Email: info@heladoselrey.com</p>
         </div>
-
-
-        <!-- PONER UN FONDO AL LABEL, Y QUE SE ENVIE REALMENTE  -->
         <div class="mt-5">
             <h3>Deja tu mensaje</h3>
             <form action="procesar_formulario.php" method="post">
                 <div class="mb-3">
-                    <label for="nombre" class="form-label">Nombre:</label>
-                    <input type="text" class="form-control" id="nombre" name="nombre" required>
+                    <label for="nombre" class="madre__label form-label">Nombre:</label>
+                    <input type="text" placeholder="Jonny B. Good" class="form-control" id="nombre" name="nombre" required>
                 </div>
                 <div class="mb-3">
-                    <label for="email" class="form-label">Email:</label>
-                    <input type="email" class="form-control" id="email" name="email" required>
+                    <label for="email" class="madre__label form-label">Email:</label>
+                    <input type="email" placeholder="jonnybegood@gmail.com" class="form-control" id="email" name="email" required>
                 </div>
                 <div class="mb-3">
-                    <label for="mensaje" class="form-label">Mensaje:</label>
-                    <textarea class="form-control" id="mensaje" name="mensaje" rows="4" required></textarea>
+                    <label for="mensaje" class="madre__label form-label">Mensaje:</label>
+                    <textarea placeholder="Escriba su comentario aquí" class="form-control" id="mensaje" name="mensaje" rows="4" required></textarea>
                 </div>
                 <button type="submit" class="btn btn-primary">Enviar mensaje</button>
             </form>
         </div>
     </div>
+    </main>
     <!-- FOOTER -->
     <footer class="footer bg-light">
         <div class="footer__container container-fluid d-flex justify-content-between align-items-center">

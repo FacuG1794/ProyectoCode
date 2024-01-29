@@ -1,4 +1,7 @@
-
+.sabores{
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+}
 
 .sabores-box {
     display: flex;
@@ -12,7 +15,7 @@
     margin: 15px;
     text-align: center;
     width: 200px;
-    background-color: #fcd972;
+    background-color: #e9b23d;
 }
 .sabor-item__title {
     font-size: 18px;
@@ -31,4 +34,3 @@
 .sabor-item__list li {
     margin-bottom: 5px;
 }
-
