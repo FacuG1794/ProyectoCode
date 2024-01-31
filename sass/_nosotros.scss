@@ -6,21 +6,19 @@
     margin: 0 auto; 
 }
 
-.container {
+.bienvenida {
     text-align: center;
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
-}
-
-h1 {
+    &__h2{
     font-size: 2.5em;
     color: #333; 
     margin-bottom: 20px;
-}
-
-p {
-    font-family: "Nunito";
-    font-size: 1.2em;
-    color: #666; 
+    }
+    &__p{
+    font-family: "Roboto condensed", sans-serif;
+    font-size: 1.4em;
+    color: black; 
     line-height: 1.5;
+    }
 }
