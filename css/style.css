@@ -128,6 +128,9 @@ body {
   background-color: #FFEE58;
   max-width: 100%; }
 
+@media (max-width: 632px) {
+  main {
+    margin-top: 278px; } }
 .sucursal-box {
   padding: 20px;
   text-align: center;
@@ -261,9 +264,6 @@ body {
   position: relative;
   z-index: 0; }
 
-@media (max-width: 632px) {
-  .carousel-container {
-    margin-top: 278px; } }
 .grid-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -303,7 +303,7 @@ p {
   align-items: center;
   margin-bottom: 20px; }
   .madre__label {
-    width: 500px;
-    max-width: 100%; }
+    width: 70vh;
+    max-width: 80vh; }
 
 /*# sourceMappingURL=style.css.map */
